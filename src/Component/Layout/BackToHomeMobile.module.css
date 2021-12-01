@@ -1,0 +1,22 @@
+.navmobile {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .navmobile{ 
+    display: flex;
+    height: 70px;
+    cursor: pointer;
+  }
+  .navmobile >div {
+    align-self: center;
+    display: flex;
+    align-content: center;
+    padding-left: 25px;
+  }
+  .navmobile >div span {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: 20px;
+  }
+}

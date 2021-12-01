@@ -1,0 +1,22 @@
+.searchwrapper {
+  width: calc(100% - 375px) ;
+ 
+}
+.profilewrapper {
+  width: 375px;
+  background: #1b1b1b;
+  min-height: 100vh;
+}
+@media only screen and (max-width: 1440px) {
+  .searchwrapper {
+    width: calc(100%) ;
+  }
+  .profilewrapper {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .searchwrapper {
+    padding: 0 20px;
+  }
+}

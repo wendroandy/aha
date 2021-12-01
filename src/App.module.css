@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Ubuntu:wght@400;500;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+}
+body {
+  background-color: #181818;
+  font-family: 'Ubuntu', sans-serif;
+  position: relative;
+}
+.mainwrapper {
+  display :flex;
+  flex-direction: row;
+}
+main {
+  width:calc(100% - 80px) ;
+  margin-left: 80px;
+  display:flex;
+  flex-direction: row;
+}
+
+/* Scroll bar stylings */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #464646; 
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+@media only screen and (max-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+  }
+  main {
+    width:100% ;
+    margin-left: 0px;
+  }
+}
