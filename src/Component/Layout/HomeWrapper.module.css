@@ -5,7 +5,7 @@
 .profilewrapper {
   width: 375px;
   background: #1b1b1b;
-  min-height: 100vh;
+  min-height: 100%;
 }
 @media only screen and (max-width: 1440px) {
   .searchwrapper {

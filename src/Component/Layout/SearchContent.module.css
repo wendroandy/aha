@@ -6,7 +6,7 @@
   margin: 0 auto;
   color: white;
   position: relative;
-  min-height: 100vh;
+  min-height: 100%;
 }
 .title {
   font-weight: normal;
@@ -47,7 +47,7 @@
 .search {
   position: absolute;
   left: 0px;
-  bottom: 86px;
+  top: 770px;
   max-width: 100%;
 }
 
@@ -58,6 +58,7 @@
     margin: 0 auto;
     text-align: center;
     bottom: 24px;
+    top:unset;
   }
   .searchcontent {
     padding-top: 70px;
@@ -76,6 +77,6 @@
     margin-bottom: 2px;
   }
   .searchcontent {
-    min-height: calc(100vh - 66px);
+    min-height: calc(100% - 66px);
   }
 }

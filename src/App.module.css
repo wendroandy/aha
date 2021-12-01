@@ -16,12 +16,20 @@ body {
 .mainwrapper {
   display :flex;
   flex-direction: row;
+  min-height:100%;
 }
 main {
   width:calc(100% - 80px) ;
   margin-left: 80px;
   display:flex;
   flex-direction: row;
+  min-height:100%;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
 }
 
 /* Scroll bar stylings */
