@@ -25,7 +25,7 @@ const Tags =(props)=> {
       })
     }
     const endOfPage=()=> {
-      if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+      if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 100) {
         setLoadmore((prevState)=>(parseInt(prevState)+parseInt(props.total)))
       }
     }
